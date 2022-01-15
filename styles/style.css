@@ -178,3 +178,43 @@ nav span ul li a {
 .fa-star-half-alt.empty {
     color: #FFC014;
 }
+
+.see-more-btn {
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    float: right;
+    margin-top: 50px;
+    margin-right: 55px;
+}
+
+
+/* footer styles */
+
+footer {
+    height: 240px;
+    background-color: #0A0826;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+
+.fab {
+    font-size: 32px;
+    color: lightgrey;
+    margin-left: 20px;
+    margin-top: 20px;
+}
