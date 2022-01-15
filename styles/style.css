@@ -117,7 +117,9 @@ nav span ul li a {
 .grid-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 45px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-items: center;
 }
 
 .popular-title {
