@@ -190,6 +190,43 @@ nav span ul li a {
 }
 
 
+/* featured products */
+
+.box-product {
+    width: 1110px;
+    height: 270px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #E02C6D;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1%;
+    grid-column-gap: 20px;
+    color: #fff;
+}
+
+.testimonial-box {
+    margin: 15px;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: 130px;
+}
+
+.testimonial-p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.testimonial-title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
 /* footer styles */
 
 footer {
