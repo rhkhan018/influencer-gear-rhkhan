@@ -1,4 +1,99 @@
+/* all fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* common styles and utilities */
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 5% 5% 0% 5%;
+}
+
+.container {
+    padding: 0% 5% 5% 5%;
+}
+
+
+/* main title */
+
+.main-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+
+/* nav style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+nav span ul {
+    display: flex;
+}
+
+nav span ul li {
+    list-style: none;
+    align-items: baseline;
+}
+
+nav span ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 35px;
+}
+
+
+/* icon styles */
+
+.iconify,
+.ai-search {
+    font-size: 24px;
+}
+
+
+/* top section styles */
+
+.half-width {
+    width: 50%;
+}
+
+.section-header {
+    font-size: 52px;
+}
+
+.all-btn {
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.all-p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #3A3A3A;
+    margin-bottom: 15px;
+}
+
+.half-width-dis {
+    display: flex;
+}
+
+.side-img {
+    margin-left: 180px;
 }
