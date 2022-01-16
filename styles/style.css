@@ -255,3 +255,25 @@ footer p {
     margin-left: 20px;
     margin-top: 20px;
 }
+
+
+/* all media queries */
+
+
+/* mobile devices */
+
+@media only screen and (max-width:420px) {
+    nav {
+        overflow: hidden;
+        position: relative;
+    }
+    .container {
+        width: 100%;
+    }
+    .half-width {
+        width: 100%;
+    }
+    .half-width-dis {
+        width: 100%;
+    }
+}
