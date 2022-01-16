@@ -262,7 +262,7 @@ footer p {
 
 /* mobile devices */
 
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:568px) {
     nav {
         overflow: hidden;
         position: relative;
@@ -275,5 +275,16 @@ footer p {
     }
     .half-width-dis {
         width: 100%;
+    }
+    .brand-logo {
+        width: 100%;
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid-items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box-product .testimonial-box {
+        flex-direction: column;
     }
 }
